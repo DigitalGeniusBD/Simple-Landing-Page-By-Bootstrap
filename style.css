@@ -1,0 +1,282 @@
+
+/************* Header Area ****************/
+.header-area {
+	background-image: url("images/background.jpg");
+	background-repeat: repeat;
+	min-height: 900px;
+	
+}
+.header-area h1 {
+	color: #f1c40f;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 20px 0;
+	font-weight: bold;
+	font-size: 72px;
+	cursor: pointer;
+	
+	
+}
+
+/********* Menu *************/
+
+.menu {
+	padding: 30px 0;
+	
+}
+.menu a {
+	font-size: 16px;
+	margin: 0 10px;
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+	transition: 1s;
+	border-bottom: 1px solid transparent;
+	
+}
+.menu a:hover {
+	
+	color: #F3A112;
+	border-bottom: 1px solid #F3A112;
+	
+}
+.current a {
+	border-bottom: 1px solid #F3A112;
+	color: #F3A112;
+}
+
+
+
+.section .left-section h2 {
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-align: center;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.section h2 {
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-align: left;
+	cursor: pointer;
+	transition: 1s;
+	border-bottom: 1px solid transparent;
+	
+}
+
+.section h2:hover {
+	color: #f39c12;
+	border-bottom: 1px solid #f39c12;
+	
+}
+b {
+	color: #FFFFFF;
+}
+
+
+ /******** Left Section *************/
+ 
+.left-section {
+	background-color:;
+	min-height: 700px;
+	margin: 1% 0;
+	
+	
+}
+
+.left-section input {
+	display: block;
+	width: 90%;
+	padding: 10px 20px;
+	font-size: 16px;
+	margin: 15px auto;
+	border-radius: 5px;
+	border: 1px solid #f1c40f;
+	
+	
+	
+	
+}
+
+.left-section input[type="submit"] {
+	background: linear-gradient(#f1c40f, #f39c12);
+	width: 50%;
+	color: #000000;
+	border: 1px solid #f1c40f;
+	transition: 1s;
+	text-transform: capitalize;
+	
+}
+
+.left-section input[type="submit"]:hover {
+	background: linear-gradient(#f39c12, #f1c40f);
+	color: #FFFFFF;
+	border: 1px solid #f1c40f;
+	
+}
+.login {
+	width: 90%;
+	margin: auto;
+	padding-top: 100px;
+	
+}
+.login h3 {
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-align: center;
+	cursor: pointer;
+	transition: 1s;
+	border-bottom: 1px solid transparent;
+	
+}
+.login h3:hover {
+	color: #f39c12;
+	border-bottom: 1px solid #f39c12;
+	
+}
+
+
+.login a {
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	display: block;
+	background: linear-gradient(#f1c40f, #f39c12);
+	border: 1px solid #f39c12;
+	color: #000000;
+	padding: 10px 20px;
+	border-radius: 5px;
+	transition: 1s;
+	text-transform: capitalize;
+	margin-top: 30px;
+	
+	
+}
+
+.login a:hover {
+	background: linear-gradient(#f39c12, #f1c40f);
+	transform: scale(1.2);
+	color: #FFFFFF;
+}
+
+.catagories {
+	padding: 40px 0;
+}
+
+.catagories a {
+	font-size: 16px;
+	padding: 10px;
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+	transition: 1s;
+	
+}
+.catagories a:hover {
+	background: #F3A112;
+	color: #000000;
+	
+}
+
+
+
+
+/**************** Right Section *****************/
+
+.right-section {
+	background-color: ;
+	margin: 1% 0;
+	
+}
+.right-section address {
+	color: #FFFFFF;
+	
+	
+}
+
+.col-1-4 {
+	background-color: #2c3e50;
+	padding: 20px 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	
+}
+
+
+.col-1-4 a {
+	text-decoration: none;
+	color: #FFFFFF;
+	transition: 1s;
+	
+}
+
+.col-1-4 a:hover {
+	color: #f1c40f;
+	
+}
+
+.fa {
+	padding: 10px 10px;
+	margin: 10px 15px;
+	transition: 1s;
+	border-radius: 20%;
+}
+
+.fa:hover {
+	background: linear-gradient(#f39c12, #f1c40f);
+	transform: scale(1.2);
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+@media all and (max-width: 520px) {
+	ul li {
+		width: 50%;
+		margin: auto;
+		display: inline-block;
+
+	}
+	.menu a {
+		border: 1px solid transparent;
+		padding: 5px 0;
+		margin: 5px 0;
+		
+		
+	}
+	.menu a:hover {
+		
+		color: #F3A112;
+		border: 1px solid #F3A112;
+		padding: 
+		
+	}
+	.current a {
+		border: 1px solid #F3A112;
+		color: #F3A112;
+	}
+	
+	.header-area h1 {
+		font-size: 40px;
+		
+		
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
